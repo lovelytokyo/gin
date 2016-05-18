@@ -1,0 +1,6 @@
+hash: c49748b7adc8b52093dc12ddeee4b43dfeb5ca81c8381d2f73fdfeea4a600fd5
+updated: 2016-05-18T11:46:23.882125588+09:00
+imports:
+- name: github.com/k0kubun/pp
+  version: 36d5366f4ec038f9a76dd85c7b29074089bb9b9e
+devImports: []
