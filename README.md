@@ -34,3 +34,10 @@ Preference → Go → Go Libraries → Project Libraries
 
 - add(+) `$GOPATH`
 - add(+) `$GOPATH/src/github.com/mnuma/goapp-example/vendor`
+
+Edit configurations... → Environment
+
+
+| Name| Value|
+|-----|------|
+|GO15VENDOREXPERIMENT     |1      |
