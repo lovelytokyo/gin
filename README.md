@@ -27,3 +27,5 @@ glide get github.com/k0kubun/pp
 ```
 GO15VENDOREXPERIMENT=1 go run main.go
 ```
+
+# Idea
