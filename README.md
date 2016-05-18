@@ -42,14 +42,12 @@ Edit configurations... → Environment
 |-----|------|
 |GO15VENDOREXPERIMENT     |1      |
 
-# show version
+# Show version
 
 ```
 make build 
 ./dist/main -v
 ```
-
-
 
 # Make rules
 

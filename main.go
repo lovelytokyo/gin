@@ -16,6 +16,5 @@ func main() {
 		fmt.Printf("version: %s\n", version)
 		return
 	}
-
 	pp.Println("hello world")
 }
