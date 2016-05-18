@@ -41,3 +41,8 @@ Edit configurations... → Environment
 | Name| Value|
 |-----|------|
 |GO15VENDOREXPERIMENT     |1      |
+
+
+# Make rules
+
+- make glide-update
