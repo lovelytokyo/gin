@@ -42,7 +42,21 @@ Edit configurations... → Environment
 |-----|------|
 |GO15VENDOREXPERIMENT     |1      |
 
+# show version
+
+```
+make build 
+./dist/main -v
+```
+
+
 
 # Make rules
 
 - make glide-update
+
+| command| |
+|-----|------|
+|make glide-update     |run glide update       |
+|make build     |run build      |
+
