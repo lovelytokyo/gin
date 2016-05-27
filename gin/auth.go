@@ -37,6 +37,7 @@ func TokenAuth() gin.HandlerFunc {
 func main () {
 	r := gin.Default()
 
+	// basic auth
 	authorized := r.Group("/admin", gin.BasicAuth(gin.Accounts{
 		"foo": "bar",
 		"austin": "1234",
@@ -53,11 +54,13 @@ func main () {
 		}
 	})
 
+	// custom auth
 	designer := r.Group("/designer", TokenAuth())
 	designer.GET("/news", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"news": "hogehoge"})
 	})
 
+	// allow no auth
 	r.GET("/readme", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"readme": "thanks"})
 	})
