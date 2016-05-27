@@ -35,5 +35,9 @@ func main () {
 		}
 	})
 
+	r.GET("/readme", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{"readme": "thanks"})
+	})
+
 	r.Run(":8080")
 }
